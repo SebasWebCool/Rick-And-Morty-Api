@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <div className='header'>
         <form onSubmit={handdleSubmit} >
-          <input type="text" id='search' placeholder='type a location id' />
+          <input type="text" id='search' placeholder='Type a location id' />
           <button>Search</button>
         </form>
       </div>

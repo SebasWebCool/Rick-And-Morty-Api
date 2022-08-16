@@ -17,7 +17,7 @@ const CardResidents = ({ url }) => {
         <h3 className='card_name'>{resident?.name}</h3>
         <ul className='card_list'>
           <li>
-            <span>Specie: </span>{resident?.species}
+            <span>Species: </span>{resident?.species}
           </li>
           <li>
             <span>Origin: </span>{resident?.origin.name}
